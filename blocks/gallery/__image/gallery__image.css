@@ -1,0 +1,12 @@
+.gallery__image {
+  width: 224px;
+  height: 224px;
+}
+
+
+  @media (max-width: 489px) {
+    .gallery__image {
+      width: 126px;
+      height: 126px;
+    }
+  }

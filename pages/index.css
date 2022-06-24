@@ -1,0 +1,106 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/scroll/scroll.css); /* Подключил кастомный скролл */
+
+/*Page и миксы с внешней геометрией*/
+
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__header/page__header.css);
+@import url(../blocks/page/__hero/page__hero.css);
+@import url(../blocks/page/__features/page__features.css);
+@import url(../blocks/page/__cards/page__cards.css);
+@import url(../blocks/page/__portfolio/page__portfolio.css);
+@import url(../blocks/page/__gallery/page__gallery.css);
+@import url(../blocks/page/__footer/page__footer.css);
+@import url(../blocks/page/__contacts-form/page__contacts-form.css);
+
+/*Header*/
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__social-links/header__social-links.css);
+@import url(../blocks/header/__social-link/header__social-link.css);
+@import url(../blocks/header/__social-icon/header__social-icon.css/);
+
+/*Social-links*/
+
+@import url(../blocks/social-links/social-links.css);
+@import url(../blocks/social-links/__item/social-links__item.css);
+@import url(../blocks/social-links/__icon/social-links__icon.css);
+
+/*Hero*/
+
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__group/hero__group.css);
+@import url(../blocks/hero/__title/hero__title.css);
+@import url(../blocks/hero/__subtitle/hero__subtitle.css);
+@import url(../blocks/hero/__text/hero__text.css);
+@import url(../blocks/hero/__button/hero__button.css);
+@import url(../blocks/hero/__circle-pic/hero__circle-pic.css);
+@import url(../blocks/hero/__circle-border/hero__circle-border.css);
+@import url(../blocks/hero/__image/hero__image.css);
+
+/* FEATURES BLOCK */
+@import url(../blocks/features/features.css);
+@import url(../blocks/features/__title/features__title.css);
+@import url(../blocks/features/__width/features__width.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__description/cards__description.css);
+/* PORTFOLIO BLOCK */
+@import url(../blocks/portfolio/portfolio.css);
+@import url(../blocks/portfolio/__title/portfolio__title.css);
+@import url(../blocks/portfolio/__blocks/portfolio__blocks.css);
+@import url(../blocks/portfolio/__block/portfolio__block.css);
+@import url(../blocks/portfolio/__block/_one/portfolio__block_one.css);
+@import url(../blocks/portfolio/__block/_two/portfolio__block_two.css);
+@import url(../blocks/portfolio/__block/_three/portfolio__block_three.css);
+@import url(../blocks/portfolio/__button/portfolio__button.css);
+@import url(../blocks/portfolio/__description/portfolio__description.css);
+/* GALLERY BLOCK */
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__videobox/gallery__videobox.css);
+@import url(../blocks/gallery/__overlay/gallery__overlay.css);
+@import url(../blocks/gallery/__items/gallery__items.css);
+@import url(../blocks/gallery/__item/gallery__item.css);
+@import url(../blocks/gallery/__image/gallery__image.css);
+@import url(../blocks/gallery/__video/gallery__video.css);
+
+/*Footer*/
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__title/footer__title.css);
+
+/*Contacts*/
+
+@import url(../blocks/contacts/contacts.css);
+
+/*Contacts-form*/
+
+@import url(../blocks/contacts-form/contacts-form.css);
+@import url(../blocks/contacts-form/__text/contacts-form__text.css);
+@import url(../blocks/contacts-form/__word/contacts-form_word.css);
+@import url(../blocks/contacts-form/__input/contacts-form__input.css);
+@import url(../blocks/contacts-form/__label/contacts-form__label.css);
+@import url(../blocks/contacts-form/__label/_icon/contacts-form__label_icon_name.css);
+@import url(../blocks/contacts-form/__label/_icon/contacts-form__label_icon_phone.css);
+@import url(../blocks/contacts-form/_input/contacts-form_input_user.css);
+@import url(../blocks/contacts-form/_input/contacts-form_input_phone.css);
+@import url(../blocks/contacts-form/__submit/contacts-form__submit.css);
+
+/*Contacts-block*/
+
+@import url(../blocks/contacts-block/contacts-block.css);
+@import url(../blocks/contacts-block/__privacy-policy/contacts-block__privacy-policy.css);
+
+/*Contacts-text*/
+
+@import url(../blocks/contacts-text/contacts-text.css);
+@import url(../blocks/contacts-text/__phone/contacts-text__phone.css);
+@import url(../blocks/contacts-text/__title/contacts-text__title.css);
+@import url(../blocks/contacts-text/__item/contacts-text__item.css);
+@import url(../blocks/contacts-text/__email/contacts-text__email.css);
+@import url(../blocks/contacts-text/__social/contacts-text__social.css);
+@import url(../blocks/contacts-text/__list/contacts-text__list.css);
+@import url(../blocks/contacts-text/__social-link/contacts-text__social-link.css);
+

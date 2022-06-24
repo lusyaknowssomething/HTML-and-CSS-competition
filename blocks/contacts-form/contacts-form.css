@@ -1,0 +1,12 @@
+.contacts-form {
+  background-color: #fff;
+  padding: 47px 39px 61px;
+  box-shadow: -5px 5px 0px #FFC41D;
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  .contacts-form {
+    padding: 38px 22px 48px;
+  }
+}

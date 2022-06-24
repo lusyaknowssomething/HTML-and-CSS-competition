@@ -1,0 +1,8 @@
+.contacts-text__social-link {
+  opacity: 1;
+  transition: opacity .5s;
+}
+
+.contacts-text__social-link:hover {
+  opacity: .6;
+}

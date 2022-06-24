@@ -1,0 +1,14 @@
+.social-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 21px;
+  align-items: center;
+}
+
+@media (max-width: 320px) {
+  .social-links {
+    gap: 13px;
+  }
+}
+

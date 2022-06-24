@@ -1,0 +1,16 @@
+.cards {
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  max-width: 944px;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0;
+}
+
+@media (max-width: 1050px) {
+  .cards {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+}

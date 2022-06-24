@@ -1,0 +1,16 @@
+.portfolio__blocks {
+    max-width: 944px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 0 64px;
+}
+
+@media (max-width: 700px) {
+    .portfolio__blocks {
+        flex-direction: column;
+        padding-bottom: 89px;
+    }
+}

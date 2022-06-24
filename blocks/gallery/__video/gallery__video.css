@@ -1,0 +1,12 @@
+.gallery__video {
+    width: 224px;
+    height: 224px;
+    border: none;
+}
+
+@media (max-width: 489px) {
+    .gallery__video {
+      width: 126px;
+      height: 126px;
+    }
+  }

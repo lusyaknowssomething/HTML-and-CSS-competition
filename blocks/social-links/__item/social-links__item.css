@@ -1,0 +1,12 @@
+.social-links__item {
+  margin: 0;
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 320px) {
+  .social-links__item {
+    width: 16px;
+    height: 16px;
+  }
+}

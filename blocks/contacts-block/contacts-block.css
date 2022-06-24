@@ -1,0 +1,12 @@
+.contacts-block {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+  .contacts-block {
+    gap: 26px;
+  }
+}
+

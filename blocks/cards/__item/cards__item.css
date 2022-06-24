@@ -1,0 +1,32 @@
+.cards__item {
+    max-width: 304px;
+    margin-bottom: 63px;
+    margin-right: 16px;
+  }
+
+  .cards__item:nth-of-type(3n) {
+    margin-right: 0;
+  }
+
+  @media (min-width: 994px) {
+    .cards__item:nth-of-type(n+3) {
+      margin-bottom: 92px;
+    }
+  }
+
+  @media (min-width: 640px) and (max-width: 993px) {
+    .cards__item:nth-of-type(odd) {
+      margin-right: 16px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .cards__item {
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+
+    .cards__item:last-child {
+      margin-bottom: 59px;
+    }
+  }

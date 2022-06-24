@@ -1,0 +1,9 @@
+.gallery {
+    background-color: #141F35;
+}
+
+@media (max-width: 489px) {
+    .gallery {
+        padding-bottom: 53px;
+    }
+}

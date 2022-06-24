@@ -1,0 +1,23 @@
+.features__width {
+  width: 944px;
+  margin: 64px auto 80px;
+}
+
+@media (max-width: 1000px) {
+  .features__width {
+    padding-left: 28px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 489px) {
+  .features__width {
+    margin: 61px auto 59px;
+  }
+}
+@media (max-width: 489px) {
+  .features__width {
+    margin: 61px auto 59px;
+  }
+}

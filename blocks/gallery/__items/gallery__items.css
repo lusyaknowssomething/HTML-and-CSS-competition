@@ -1,0 +1,29 @@
+.gallery__items {
+    display: grid;
+    list-style: none;
+    padding: 0;
+    grid-template-columns: repeat(auto-fit, minmax(224px, 1fr));
+    gap: 16px;
+    max-width: 944px;
+    margin: auto;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+@media (min-width: 490px) and (max-width: 945px) {
+    .gallery__items {
+        width: 95%;
+    }
+}
+
+@media (max-width: 489px) {
+    .gallery__items {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        max-width: 267px;
+        overflow-x:scroll;
+        padding-top: 35px;
+        padding-bottom: 15px;   
+    }
+}

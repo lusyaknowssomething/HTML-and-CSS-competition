@@ -1,0 +1,12 @@
+.contacts-block__privacy-policy {
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  font-weight: 400;
+  color: #949494;
+  transition: opacity .5s;
+}
+
+.contacts-block__privacy-policy:hover {
+  opacity: .6;
+}

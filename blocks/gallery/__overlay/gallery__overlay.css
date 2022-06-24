@@ -1,0 +1,11 @@
+.gallery__overlay {
+    position:absolute;
+    width:160px;
+    min-height:40px;
+    z-index:300000;
+    top: 0;
+    right: 0;
+    bottom:0;
+    left:0;
+    text-align:center;
+}

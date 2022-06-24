@@ -1,0 +1,20 @@
+.contacts-form__label_icon_phone {
+  color: #949494;
+  font-size: 14px;
+  line-height: 28px;
+  position: absolute;
+  left: 27px;
+  top: 21px;
+  margin-left: 27px;
+}
+
+.contacts-form__label_icon_phone::before {
+  content: url(../../../../images/phone-icon.svg);
+  position: absolute;
+  margin-left: -27px;
+  margin-top: 3px;
+}
+
+
+
+

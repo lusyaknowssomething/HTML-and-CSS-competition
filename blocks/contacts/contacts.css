@@ -1,0 +1,26 @@
+.contacts {
+  display: grid;
+  gap: 96px;
+  grid-template-columns: 1fr 1fr;
+  align-items: stretch;
+}
+
+@media (max-width: 900px) {
+  .contacts {
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 750px) {
+  .contacts {
+    grid-template-columns: 1.3fr 0.7fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .contacts {
+    grid-template-columns: 1fr;
+  }
+}

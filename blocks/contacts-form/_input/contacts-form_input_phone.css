@@ -1,0 +1,27 @@
+.contacts-form_input_phone {
+  display: block;
+  background-color: #F8F8F8;
+  box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+  border-radius: 5px;
+  width: 100%;
+  color: #000;
+  font-size: 14px;
+  line-height: 28px;
+  padding: 20px 25px 19px 24px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  border: none;
+}
+
+.contacts-form_input_phone:focus {
+  position: relative;
+  background-color: #F8F8F8;
+}
+
+
+.contacts-form_input_phone:not(:placeholder-shown) {
+  position: relative;
+  background-color: #F8F8F8;
+}
+
+

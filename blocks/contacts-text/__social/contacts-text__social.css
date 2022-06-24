@@ -1,0 +1,22 @@
+.contacts-text__social {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+@media (max-width: 800px) {
+  .contacts-text__social {
+    grid-column-end: 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .contacts-text__social {
+    grid-column-end: 3;
+  }
+}
+
+@media (max-width: 400px) {
+  .contacts-text__social {
+    grid-column-end: 2;
+  }
+}

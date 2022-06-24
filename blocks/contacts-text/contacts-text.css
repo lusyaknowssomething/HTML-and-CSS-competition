@@ -1,0 +1,24 @@
+.contacts-text {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 32px;
+}
+
+@media (max-width: 800px) {
+  .contacts-text {
+    grid-template-columns: 1fr;
+    row-gap: 35px;
+  }
+}
+
+@media (max-width: 600px) {
+  .contacts-text {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 400px) {
+  .contacts-text {
+    grid-template-columns: 1fr;
+  }
+}

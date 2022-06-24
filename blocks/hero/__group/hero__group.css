@@ -1,0 +1,15 @@
+.hero__group {
+  max-width: 444px;
+}
+
+@media (max-width: 800px) {
+  .hero__group {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero__group {
+    text-align: center;
+  }
+}

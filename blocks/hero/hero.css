@@ -1,0 +1,13 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  max-width: 944px;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .hero {
+    flex-direction: column-reverse;
+  }
+}
+

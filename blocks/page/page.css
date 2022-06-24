@@ -1,0 +1,9 @@
+.page {
+  color: #fff;
+  background-color: #1B2944;
+  margin: 0 auto;
+  min-width: 320px;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}

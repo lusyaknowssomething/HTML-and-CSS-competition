@@ -1,0 +1,6 @@
+.hero__circle-border {
+  overflow: hidden;
+  border-radius: 50%;
+  height: 0;
+  padding-bottom: 100%;
+}

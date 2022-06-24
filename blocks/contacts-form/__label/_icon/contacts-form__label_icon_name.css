@@ -1,0 +1,16 @@
+.contacts-form__label_icon_name {
+  color: #949494;
+  font-size: 14px;
+  line-height: 28px;
+  position: absolute;
+  left: 27px;
+  top: 21px;
+  margin-left: 27px;
+}
+
+.contacts-form__label_icon_name::before {
+  content: url(../../../../images/user-icon.svg);
+  position: absolute;
+  margin-left: -27px;
+  margin-top: 3px;
+}

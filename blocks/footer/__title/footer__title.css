@@ -1,0 +1,23 @@
+.footer__title {
+  margin: 0 0 80px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+@media (max-width: 600px) {
+  .footer__title {
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+
+@media (max-width: 350px) {
+  .footer__title {
+    font-size: 19px;
+    line-height: 22px;
+  }
+}
+

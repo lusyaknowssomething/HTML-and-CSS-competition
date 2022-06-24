@@ -1,0 +1,36 @@
+.portfolio__button {
+  background-color: #EC1F46;
+  max-width: 120px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  border-bottom: 4px ridge #EC1F46;
+  border-radius: 5px;
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  position: absolute;
+  padding: 10px 25px;
+  left: 30px;
+  bottom: 28px;
+  z-index: 3;
+  text-decoration: none;
+  margin: 0;
+  transition: background-color .5s, border-bottom .5s;
+}
+
+.portfolio__button:hover {
+  background-color: #8a1228;
+  border-bottom: 4px ridge #830f25;
+}
+
+@media (max-width: 490px) {
+    .portfolio__button {
+        max-width: 112px;
+        left: 24px;
+        bottom: 25px;
+    }
+}
